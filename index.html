@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar -->
+    <nav class="w-100 bg-primary px-3 py-2">
+      <h2 class="text-white">Starbhak Market</h2>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Container Center -->
+    <div class="bg-secondary d-flex">
+      <!-- Start Sidebar -->
+      <div
+        class="bg-secondary w-25 d-flex flex-column gap-3 p-3 "
+        style="height: 100vh"
+      >
+        <!-- Start container btn -->
+        <div class="d-flex w-100 flex-column align-items-center gap-3 p-1">
+          <button id="mydropdown " onclick="mydropdown()"
+            type="button"
+            class="btn w-100 btn-primary dropdown-toggle"
+            data-bs-toggle="dropdown"
+          >
+            takeaway
+          </button>
+          <!-- drop 1 -->
+          <button type="button" class="btn btn-primary w-100">
+           <img src="asset/user-solid-24.png" >
+            mang jay
+          </button>
+        </div>
+        <!-- End container btn -->
+
+        <!-- Start List -->
+        <div class="w-100 h-100 p-2" style="background-color: #fff">
+          <ul class="list-unstyled">
+            <!--  -->
+            <li class="border-bottom border-black">
+              <div class="d-flex w-100 px-3 gap-3">
+                <div class="w-100">
+                  <div
+                    class="d-flex justify-content-between w-100"
+                    style="font-size: 15px"
+                  >
+                    <span>Burger</span>
+                    <span>Qty: 1</span>
+                  </div>
+                  <p >Total: <span id="harga">10000</span></p>
+                </div>
+                <div class="icon">
+                  <img src="asset/trash.png" width="15px" />
+                </div>
+              </div>
+            </li>
+            <li class="border-bottom border-black">
+              <div class="d-flex w-100 px-3 gap-3">
+                <div class="w-100">
+                  <div
+                    class="d-flex justify-content-between w-100"
+                    style="font-size: 15px"
+                  >
+                    <span>Burger</span>
+                    <span>Qty: 1</span>
+                  </div>
+                  <p>Total: <span id="harga">10000</span></p>
+                </div>
+                <div class="icon">
+                  <img src="asset/trash.png" width="15px" />
+                </div>
+              </div>
+            </li>
+            <li class="border-bottom border-black">
+              <div class="d-flex w-100 px-3 gap-3">
+                <div class="w-100">
+                  <div
+                    class="d-flex justify-content-between w-100"
+                    style="font-size: 15px"
+                  >
+                    <span>Burger</span>
+                    <span>Qty: 1</span>
+                  </div>
+                  <p>Total: <span id="harga">10000</span></p>
+                </div>
+                <div class="icon">
+                  <img src="asset/trash.png" width="15px" />
+                </div>
+              </div>
+            </li>
+            <!--  -->
+          </ul>
+        </div>
+        <!-- End List -->
+
+        <!-- Start Billing -->
+        <div
+          class="d-flex flex-column justify-content-between h-auto p-1"
+          style="background-color: #fff"
+        >
+          <div class="d-flex">discount:</div>
+          <div class="d-flex justify-content-between">
+            <p>tax</p>
+            <p>Rp; 15.4000</p>
+          </div>
+          <div class="d-flex justify-content-between">
+            <p>Total amount</p>
+            <p>Rp; 15.4000</p>
+          </div>
+        </div>
+        <!-- End Biling -->
+      </div>
+      <!-- End Sidebar -->
+
+      <!-- Start Content -->
+      <div class="bg-white container">
+        
+        <div
+        class="d-flex justify-content-end p-3"
+        style="background-color: #fff">
+       item list
+        <img src="asset/trash.png" width="20px">
+        </div>
+        
+        <div
+        class="d-flex justify-content-around h-auto p-1"
+        style="background-color: #ddd">
+          <div class="d-flex">
+              <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+              
+            </div>
+          </div>
+            <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+            </div>
+
+            <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+            </div>
+            <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+            </div>
+            <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+            </div>
+            <div class=" justify-content-between"style="background-color: #fff">
+              <img src="asset/Fresh_beef_burger_isolated_-1-removebg-preview.png" width="120px">
+              <h6>Burger</h6>
+              <span class="d-flex justify-content-center">
+                <h5 class="text-info">Rp. 35.000</h5>
+              </span> 
+            </div>
+              
+            </div>
+
+           
+              
+          </div>
+         
+       
+       
+      </div>
+      <!-- ENd Content -->
+
+      
+    </div>
+
+    <!-- Start Footer -->
+    <footer class="bg-primary d-flex justify-content-end">
+      <div
+        class="d-flex bg-info flex-column align-items-center"
+        style="font-size: 15px"
+      >
+        <p>Paymen</p>
+        <p>(CTRL + P)</p>
+      </div>
+    </footer>
+    <!-- End Footer -->
+
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-rbsU5fYZn5zgAq6fptRXOhXh+1FC7STC8P1pE93kEFZDr2/V3pI4dI+oTnMVvXHj"
+    crossorigin="anonymous"></script>
+
+  <script src="index.js"></script>
+  </body>
+</html>
